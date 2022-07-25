@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.black {
+  color: #272a31;
+}
+
+.orange {
+  color: #ec5242;
+}
+
+.white {
+  color: #d3d3d3;
+}
+
+@media (max-width: 767px) {
+  body {
+    color: #ec5242;
+    background-image: url('/images/background.jpg');
+    background-size: contain;
+    font-family: cocogoose, 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .mobile-menu {
+    font-size: 25px;
+    margin: 20px;
+  }
+
+  .introduction span {
+    font-size: 2vw;
+    font-weight:100;
+  }
+
+  .introduction {
+    margin: 15px 20px 0px 20px;
+    font-size: 5vw;
+    font-weight: 900;
+    background-image: url('/images/bg-introduction.png');
+    background-size: contain;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+  }
+
+  .introduction-detail {
+    margin: 0px 20px;
+    padding: 5px;
+    border: #fff solid 2px;
+    font-size: 1.5vw;
+    font-weight: 50 ;
+  }
+
+  .event-place-time {
+    font-weight: bold;
+    margin: 20px;
+  }
+
+  .event-date {
+    font-size: 5vw;
+    font-weight: 900;
+  }
+
+  .event-place {
+    font-size: 3vw;
+  }
+  .main-program {
+    background-color: #272a31;
+    background-image: url('/images/programbg.jpg');
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .main-program header {
+    text-align: center;
+    padding: 5px;
+    font-size: 3vw;
+    margin: 20px auto;
+  }
+
+  .program {
+    display: grid;
+    margin: 7px 20px;
+    grid-template-columns: 50% 50%;
+    
+    background-color: rgba(255, 255, 255, 0.2)
+
+  }
+  .program-title {
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 500;
+  }
+  .program-title img {
+    width: 10vw;
+  }
+  .program-detail {
+    padding: 5px;
+    font-size: 2vw;
+    font-weight:normal;
+  }
+
+  .join {
+    width: 60%;
+    font-size:2vw;
+    padding:30px 25px;
+    margin: 30px auto;
+    background-color: #ec5242;
+  }
+
+  .speaker {
+    display: grid;
+    margin: 20px;
+    grid-template-columns: 30% 70%;
+  }
+
+  .speaker-photo {
+    width: 100%;
+  }
+  .speaker-photo img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .speaker-name {
+    font-size: 3vh;
+  }
+  .speaker-title, .speaker-detail{
+    font-size: 1.5vh;
+  }
+}
