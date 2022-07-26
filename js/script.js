@@ -6,11 +6,11 @@ const mobileNavigationMenu = document.querySelector('.mobile-naviation');
 // functions
 function openMobileMenu() {
   mobileNavigationMenu.classList.remove('hidden');
-  main.classList.add('.hidden');
+  main.classList.add('hidden');
 }
 function closeMobileMenu() {
   mobileNavigationMenu.classList.add('hidden');
-  main.classList.remove('.hidden');
+  main.classList.remove('hidden');
 }
 // event listners
 openMenuElement.addEventListener('click', openMobileMenu);
