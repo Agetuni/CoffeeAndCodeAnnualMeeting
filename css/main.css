@@ -17,7 +17,15 @@
   color: #d3d3d3;
 }
 
-@media (max-width: 767px) {
+.center {
+  text-align: center;
+}
+
+.lato {
+  font-family: lato, Courier, monospace;
+}
+
+@media (max-width: 768px) {
   body {
     color: #ec5242;
     background-image: url('/images/background.jpg');
@@ -30,27 +38,48 @@
     margin: 20px;
   }
 
-  .introduction span {
-    font-size: 2vw;
-    font-weight:100;
-  }
-
   .introduction {
-    margin: 15px 20px 0px 20px;
+    margin: 15px 20px 0 20px;
     font-size: 5vw;
-    font-weight: 900;
     background-image: url('/images/bg-introduction.png');
     background-size: contain;
     background-position: right bottom;
     background-repeat: no-repeat;
   }
 
+  .introduction-hello {
+    font-size: 1.5vh;
+    font-family: lato, Courier, monospace;
+    font-weight: normal;
+  }
+
   .introduction-detail {
-    margin: 0px 20px;
+    margin: 0 20px;
     padding: 5px;
+    font-family: lato, Courier, monospace;
     border: #fff solid 2px;
-    font-size: 1.5vw;
-    font-weight: 50 ;
+    font-weight: bold;
+  }
+
+  .place-at {
+    font-family: lato, Courier, monospace;
+    font-weight: 900;
+  }
+
+  .intro-detail {
+    background-color: #fff;
+    font-size: 1vh;
+    padding: 10px;
+  }
+
+  .intro-about {
+    font-size: 2vw;
+    font-weight: 100;
+    padding-bottom: 25px;
+    background-image: url('/images/introduction-bg.png');
+    background-size: contain;
+    background-position: 15% bottom;
+    background-repeat: no-repeat;
   }
 
   .event-place-time {
@@ -63,10 +92,18 @@
     font-weight: 900;
   }
 
+  .event-notification {
+    text-align: center;
+    padding: 25px;
+    font-weight: normal;
+    font-size: 1.5vh;
+  }
+
   .event-place {
     font-size: 3vw;
     font-weight: normal;
   }
+
   .main-program {
     background-color: #272a31;
     background-image: url('/images/programbg.jpg');
@@ -87,30 +124,34 @@
     display: grid;
     margin: 7px 20px;
     grid-template-columns: 50% 50%;
-    
-    background-color: rgba(255, 255, 255, 0.2)
-
+    background-color: rgba(255, 255, 255, 0.2);
   }
+
   .program-title {
     text-align: center;
     font-size: 3vw;
     font-weight: 500;
+    font-family: lato, Courier, monospace;
   }
+
   .program-title img {
     width: 10vw;
   }
+
   .program-detail {
     padding: 5px;
+    font-family: lato, Courier, monospace;
     font-size: 2vw;
-    font-weight:normal;
+    font-weight: normal;
   }
 
   .join {
     width: 60%;
-    font-size:2vw;
-    padding:30px 25px;
+    font-size: 2vw;
+    padding: 30px 25px;
     margin: 30px auto;
     background-color: #ec5242;
+    font-family: lato, Courier, monospace;
   }
 
   .speaker {
@@ -122,15 +163,69 @@
   .speaker-photo {
     width: 100%;
   }
+
   .speaker-photo img {
     max-width: 100%;
     display: block;
     margin: auto;
   }
+
   .speaker-name {
     font-size: 3vh;
+    font-family: lato, Courier, monospace;
   }
-  .speaker-title, .speaker-detail{
+
+  .speaker-title,
+  .speaker-detail {
     font-size: 1.5vh;
+    font-family: lato, Courier, monospace;
+  }
+
+  .featured-speaker header {
+    margin: 20px 10px;
+    font-size: 3vh;
+    font-family: lato, Courier, monospace;
+  }
+
+  .about-logo {
+    background-color: white;
+  }
+
+  .about-logo header {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .about-logo p {
+    margin: 10px;
+    text-align: center;
+    font-size: 1vh;
+  }
+
+  .past-summit {
+    width: 80%;
+    height: 20vh;
+    margin: 20px auto;
+    background-color: rgba(255, 0, 0, 0.5);
+  }
+
+  .partner {
+    background-color: #272a31;
+    text-align: center;
+  }
+
+  .partner img {
+    width: 8vh;
+  }
+
+  .footer-about {
+    margin: 10px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .footer-year {
+    font-size: 0.5vh;
   }
 }
