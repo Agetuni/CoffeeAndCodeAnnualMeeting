@@ -406,7 +406,7 @@
   }
 
   .program-detail {
-    font-size: 1.5vh;
+    font-size: 2vh;
     font-family: lato, Courier, monospace;
     padding: 10px;
     margin: auto;
@@ -469,17 +469,20 @@
   }
 
   .speaker-name {
+    font-weight: bold;
     font-size: 4vh;
     font-family: lato, Courier, monospace;
   }
 
   .speaker-title {
+    font-weight: bold;
     font-size: 2vh;
     font-family: lato, Courier, monospace;
   }
 
   .speaker-bio {
     margin: 10px 0;
+    font-size: 2vh;
   }
 
   .partner {
