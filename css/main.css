@@ -107,13 +107,7 @@
     font-weight: bold;
   }
 
-  .intro-detail {
-    background-color: #fff;
-    font-size: 1vh;
-    padding: 10px;
-  }
-
-  .intro-about {
+  .about-intro {
     font-size: 2vw;
     font-weight: 100;
     padding-bottom: 25px;
@@ -242,6 +236,9 @@
 
   .about-logo {
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .about-logo header {
@@ -255,11 +252,21 @@
     font-size: 1vh;
   }
 
+  .about-logo-image {
+    width: 50%;
+    border: #272a31 solid 1px;
+  }
+
   .past-summit {
     width: 80%;
     height: 20vh;
     margin: 20px auto;
     background-color: rgba(255, 0, 0, 0.5);
+  }
+
+  .past-summits-titile {
+    color: #272a31;
+    font-size: 3vh;
   }
 
   .partner {
@@ -291,6 +298,12 @@
     grid-template-columns: 50% 50%;
   }
 
+  .footer img {
+    float: right;
+    margin-right: 2vh;
+    width: 0;
+  }
+
   .footer-copyright {
     font-size: 1.5vh;
     font-family: lato, Courier, monospace;
@@ -303,6 +316,10 @@
     background-image: url('/images/background.jpg');
     background-size: contain;
     font-family: cocogoose, 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .nav-logo {
+    width: 25vh;
   }
 
   .button-contaier {
@@ -493,14 +510,100 @@
     padding: 4vh 0;
   }
 
+  .past-summits-titile {
+    margin: 3vh;
+    color: #272a31;
+    font-size: 3vh;
+  }
+
+  .past-summits-detail {
+    margin-top: 3vh;
+    color: #272a31;
+    font-size: 1.5vh;
+  }
+
+  .summits {
+    display: flex;
+    justify-content: center;
+  }
+
+  .past-summit {
+    width: 100%;
+    margin: 1vh;
+    height: 20vh;
+    color: #d3d3d3;
+    background-color: #ec5242;
+  }
+
+  .past-summit p {
+    margin: auto;
+  }
+
   .footer-copyright,
   .footer-logo {
-    font-size: 2vh;
+    font-size: 3vh;
     width: 50%;
     font-family: lato, Courier, monospace;
   }
 
+  .footer-logo-img {
+    float: right;
+    width: 40vh;
+  }
+
   .mobile_element {
     display: none;
+  }
+
+  .about-intrduction-detail {
+    font-family: lato, Courier, monospace;
+    margin-top: 4vh;
+  }
+
+  .about-intrduction-detail p {
+    font-family: lato, Courier, monospace;
+    width: 60%;
+    margin: auto;
+    color: #272a31;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border: #d3d3d3 solid 3px;
+  }
+
+  .about-event-email {
+    margin: 5vh 0;
+    font-size: 2vh;
+    color: #272a31;
+    text-align: center;
+  }
+
+  .about-logo {
+    padding-top: 3vh;
+    background-color: #fff;
+    margin: 10px;
+    text-align: center;
+    font-size: 4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-log-title {
+    font-size: 3vh;
+    color: #272a31;
+  }
+
+  .about-log-detail {
+    margin: 4vh 0;
+    color: #272a31;
+    font-size: 1.5vh;
+    text-align: center;
+    width: 35%;
+  }
+
+  .about-logo-image {
+    width: 50%;
+    border: #272a31 solid 1px;
   }
 }
