@@ -6,7 +6,7 @@ const speakers = [
     id: 1,
     name: 'Alazar yilma',
     speakerTitle:
-      'Berkman professor of Enterpreneurial Legal Studies at Harvard Law School',
+      'Ex-senior web developer @ Ethiopian airlines | Microverse student',
     speakerBio:
       'Benkler studies commons-based peer productio, and published his seminal book The wealth of Networks in 2006.',
     photo: 'images/person-one.jpg',
@@ -26,7 +26,7 @@ const speakers = [
       'Berkman professor of Enterpreneurial Legal Studies at Harvard Law School',
     speakerBio:
       'Benkler studies commons-based peer productio, and published his seminal book The wealth of Networks in 2006.',
-    photo: 'images/person-one.jpg',
+    photo: 'images/person-three.jpg',
   },
   {
     id: 4,
@@ -34,7 +34,7 @@ const speakers = [
     speakerTitle: 'Director of Art Centre Nabi and A board memeber of CC Korea',
     speakerBio:
       'As the main Venue for ne media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities and the arts.',
-    photo: 'images/person-two.jpg',
+    photo: 'images/person-four.jpg',
   },
 ];
 // function to generate card
