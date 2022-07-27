@@ -8,14 +8,20 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-  <title>Global Summit</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
   <link rel="stylesheet" href="css/main.css">
-  
+
+  <title>Global Summit</title>
+
 </head>
 
 <body>
   <header>
-    <nav class="mobile-naviation hidden" >
+    <nav class="mobile-naviation hidden">
       <i class="fa fa-window-close mobile-close-button" aria-hidden="true"></i>
       <ul class="mobile_menu mobile_element">
         <li class="mobile_nav_items">
@@ -26,7 +32,31 @@
         </li>
       </ul>
     </nav>
-    <i class="fa-solid fa-bars mobile-menu black"></i>
+    <nav class="navbar navbar-expand-sm bg-light navbar-light desktop-element">
+      <div class="container-fluid">
+        <a class="navbar-brand black lato" href="#">Coffee&Code</a>
+      </div>
+      <div class="container-fluid justify-content-end lato">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Program</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Join</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sponser </a>
+          </li>
+        </ul>
+      </div>
+      <div class="button-contaier">
+        <button class="button-campaign">CC Campaign</button>
+      </div>      
+    </nav>
+    <i class="fa-solid fa-bars mobile-menu mobile_element black"></i>
   </header>
   <main>
     <section class="introduction">
@@ -44,80 +74,126 @@
 
     </section>
     <section class="main-program">
-      <header class="white lato"> Main Program</header>
-      <div class="program">
+      <header class="white lato main-program-title"> Main Program</header>
+      <div class="programs">
+        <div class="program">
 
-        <div class="program-title orange">
-          <img src="images/icons/lecture.png" alt="Lecture">
-          Lecture
+          <div class="program-title orange">
+            <i class="fa fa-book icons" aria-hidden="true"></i>
+            <p>Lecture</p>
+          </div>
+          <div class="program-detail white lato">Listen to the speaker from various countries about the messeges of
+            sharing
+            and
+            <p>opening</p>
+          </div>
         </div>
-        <div class="program-detail white">Listen to the speaker from various countries about the messeges of sharing and
-          opening</div>
+        <div class="program">
+          <div class="program-title orange">
+            <i class="fa fa-book icons" aria-hidden="true"></i>
+            <p>CC Exhibition</p>
+          </div>
+          <div class="program-detail white">Appreciate various creations applying CC license of artists, organized from
+            <p>Art
+              Center Nabi.
+            </p>
+          </div>
+        </div>
+        <div class="program">
+          <div class="program-title orange">
+            <i class="fa fa-book icons" aria-hidden="true"></i>
+            <p>Forum</p>
+          </div>
+          <div class="program-detail white">Have the time to share your thoughts and opinions with experts for each
+            topic
+          </div>
+        </div>
+        <div class="program">
+          <div class="program-title orange">
+            <i class="fa fa-book icons" aria-hidden="true"></i>
+            <p>Workshop</p>
+          </div>
+          <div class="program-detail white">Try creating your own work using open source license rather than just
+            watching
+          </div>
+        </div>
+        <div class="program">
+          <div class="program-title orange">
+            <i class="fa fa-book icons" aria-hidden="true"></i>
+            <p> CC Ignite</p>
+          </div>
+          <div class="program-detail white">Get opportunities to network with CC affiliates around the worl, also after
+            the summit</div>
+        </div>
       </div>
-      <div class="program">
-        <div class="program-title orange">
-          <img src="images/icons/task.png" alt="CC exhibition">
-          CC Exhibition
-        </div>
-        <div class="program-detail white">Appreciate various creations applying CC license of artists, organized from
-          Art
-          Center Nabi.</div>
-      </div>
-      <div class="program">
-        <div class="program-title orange">
-          <img src="images/icons/comment.png" alt="Forum">
-          Forum
-        </div>
-        <div class="program-detail white">Have the time to share your thoughts and opinions with experts for each topic
-        </div>
-      </div>
-      <div class="program">
-        <div class="program-title orange">
-          <img src="images/icons/workshop.png" alt="Workshop">
-          Workshop
-        </div>
-        <div class="program-detail white">Try creating your own work using open source license rather than just watching
-        </div>
-      </div>
-      <div class="program">
-        <div class="program-title orange">
-          <img src="images/icons/ccignite.png" alt="CC ignite">
-          CC Ignite
-        </div>
-        <div class="program-detail white">Get opportunities to network with CC affiliates around the worl, also after
-          the
-          summit</div>
-      </div>
-      <button class="join white"> Join CC Global Summit 2015</button>
+      <button class="join white mobile_element"> Join CC Global Summit 2015</button>
+      <a href="#" class="program-see-all desktop-element">SEE THE WHOLE PROGRAM</a>
     </section>
     <section class="featured-speaker">
       <header class="black center ">Featured Speakers</header>
-      <div class="speaker">
-        <div class="speaker-photo">
-          <img src="images/person-one.jpg" alt="">
+      <div class="speakers">
+        <div class="speaker">
+          <div class="speaker-photo">
+            <img src="images/person-one.jpg" alt=" yochai benkler photo">
+          </div>
+          <div class="speaker-detail">
+            <p class="speaker-name black">Yochai Benkler</p>
+            <p class="speaker-title orange">Berkman professor of Enterpreneurial Legal Studies at Harvard Law School</p>
+            <p class="speaker-bio black"> Benkler studies commons-based peer productio, and published his seminal book
+              The
+              wealth of Networks in 2006.</p>
+          </div>
         </div>
-        <div class="speaker-detail">
-          <header class="speaker-name black">Yochai Benkler</header>
-          <p class="speaker-title orange">Berkman professor of Enterpreneurial Legal Studies at Harvard Law School</p>
-          <p class="speaker-detail black"> Benkler studies commons-based peer productio, and published his seminal book
-            The
-            wealth of Networks in 2006.</p>
+        <div class="speaker">
+          <div class="speaker-photo">
+            <img src="images/person-two.jpg" alt=" sohyeong noh photo">
+          </div>
+          <div class="speaker-detail">
+            <p class="black speaker-name">SohYeong Noh</p>
+            <p class="speaker-title orange">Director of Art Centre Nabi and A board memeber of CC Korea</p>
+            <p class="speaker-bio black"> As the main Venue for ne media art production in Korea, Nabi promotes
+              cross-disciplinary collaboration and understanding among science technology, humanities and the arts.</p>
+          </div>
         </div>
-      </div>
-      <div class="speaker">
-        <div class="speaker-photo">
-          <img src="images/person-two.jpg" alt="">
+        <div class="speaker">
+          <div class="speaker-photo">
+            <img src="images/person-two.jpg" alt=" sohyeong noh">
+          </div>
+          <div class="speaker-detail">
+            <p class="black speaker-name">SohYeong Noh</p>
+            <p class="speaker-title orange">Director of Art Centre Nabi and A board memeber of CC Korea</p>
+            <p class="speaker-bio black"> As the main Venue for ne media art production in Korea, Nabi promotes
+              cross-disciplinary collaboration and understanding among science technology, humanities and the arts.</p>
+          </div>
         </div>
-        <div class="speaker-detail">
-          <h4 class="black">SohYeong Noh</h4>
-          <p class="speaker-title orange">Director of Art Centre Nabi and A board memeber of CC Korea</p>
-          <p class="speaker-detail black"> As the main Venue for ne media art production in Korea, Nabi promotes
-            cross-disciplinary collaboration and understanding among science technology, humanities and the arts.</p>
+        <div class="speaker">
+          <div class="speaker-photo">
+            <img src="images/person-one.jpg" alt=" yochai Benkler photo">
+          </div>
+          <div class="speaker-detail">
+            <p class="speaker-name black">Yochai Benkler</p>
+            <p class="speaker-title orange">Berkman professor of Enterpreneurial Legal Studies at Harvard Law School</p>
+            <p class="speaker-bio black"> Benkler studies commons-based peer productio, and published his seminal book
+              The
+              wealth of Networks in 2006.</p>
+          </div>
         </div>
       </div>
     </section>
+    <section class="partner">
+      <p class="white partner-title">Partner</p>
+      <div class="partner-link">
+        <img src="images/partner/mozzila.svg" alt="Mozzila">
+        <img src="images/partner/google.png" alt="Google">
+        <img src="images/partner/airbnb.png" alt="airbnb">
+      </div>
+    </section>
   </main>
-  <footer>
+  <footer class="footer">
+    <div class="footer-logo"></div>
+    <div class="black footer-copyright">2022 Creative Commons Korea.<br>
+      Some Rights Reserved.
+    </div>
 
   </footer>
   <script src="js/script.js"></script>

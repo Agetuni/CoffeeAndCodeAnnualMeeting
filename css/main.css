@@ -29,12 +29,21 @@
   display: none;
 }
 
+.place-at {
+  font-family: lato, Courier, monospace;
+  font-weight: 900;
+}
+
 @media (max-width: 768px) {
   body {
     color: #ec5242;
     background-image: url('/images/background.jpg');
     background-size: contain;
     font-family: cocogoose, 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .desktop-element {
+    display: none;
   }
 
   .mobile-naviation {
@@ -96,11 +105,6 @@
     font-family: lato, Courier, monospace;
     border: #fff solid 2px;
     font-weight: bold;
-  }
-
-  .place-at {
-    font-family: lato, Courier, monospace;
-    font-weight: 900;
   }
 
   .intro-detail {
@@ -168,11 +172,23 @@
     text-align: center;
     font-size: 3vw;
     font-weight: 500;
+    display: flex;
+    justify-content: left;
     font-family: lato, Courier, monospace;
+  }
+
+  .icons {
+    color: #d3d3d3;
+    margin: 20px;
+    font-size: 5vh;
   }
 
   .program-title img {
     width: 10vw;
+  }
+
+  .program-title p {
+    margin: auto;
   }
 
   .program-detail {
@@ -249,20 +265,242 @@
   .partner {
     background-color: #272a31;
     text-align: center;
+    padding-bottom: 5vh;
+  }
+
+  .partner-link {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .partner-title {
+    font-size: 2vh;
+    margin: 5vh 0;
+    color: #d3d3d3;
+    font-family: lato, Courier, monospace;
   }
 
   .partner img {
     width: 8vh;
   }
 
-  .footer-about {
-    margin: 10px;
+  .footer {
+    padding: 10px;
     background-color: white;
     display: grid;
     grid-template-columns: 50% 50%;
   }
 
-  .footer-year {
-    font-size: 0.5vh;
+  .footer-copyright {
+    font-size: 1.5vh;
+    font-family: lato, Courier, monospace;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    color: #ec5242;
+    background-image: url('/images/background.jpg');
+    background-size: contain;
+    font-family: cocogoose, 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .button-contaier {
+    width: 40%;
+  }
+
+  .button-campaign {
+    font-size: 1.5vh;
+    padding: 1vh 2vh;
+    border: #ec5242 solid 2px;
+  }
+
+  .introduction {
+    margin-top: 100px;
+    margin-left: 15vh;
+  }
+
+  .introduction-hello {
+    font-family: lato, Courier, monospace;
+    font-size: 3vh;
+  }
+
+  .introduction h1 {
+    font-size: 9vh;
+  }
+
+  .introduction-detail {
+    width: 40%;
+    font-size: 2vh;
+    margin-left: 15vh;
+    padding: 20px;
+    font-family: lato, Courier, monospace;
+    border: #fff solid 3px;
+  }
+
+  .event-place-time {
+    margin-top: 50px;
+    margin-left: 15vh;
+    color: #272a31;
+  }
+
+  .event-date {
+    color: #272a31;
+    font-size: 4vh;
+  }
+
+  .event-place {
+    color: #272a31;
+  }
+
+  .main-program {
+    margin-top: 70px;
+    background-color: #272a31;
+    background-image: url('/images/programbg.jpg');
+    background-size: contain;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-program-title {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 4vh;
+    font-family: lato, Courier, monospace;
+  }
+
+  .programs {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+  }
+
+  .program {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 20px;
+    margin-top: 40px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px 10px;
+  }
+
+  .program-detail {
+    font-size: 1.5vh;
+    font-family: lato, Courier, monospace;
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+  }
+
+  .program-title p {
+    margin: 20px 0;
+    font-size: 2vh;
+    font-family: lato, Courier, monospace;
+  }
+
+  .icons {
+    color: white;
+    font-size: 9vh;
+  }
+
+  .program-see-all {
+    margin: 40px 0;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    font-family: lato, Courier, monospace;
+  }
+
+  .featured-speaker {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .featured-speaker header {
+    font-family: lato, Courier, monospace;
+    margin-top: 5vh;
+    font-size: 5vh;
+  }
+
+  .speakers {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10vh 20vh;
+  }
+
+  .speaker {
+    width: 50%;
+    display: flex;
+  }
+
+  .speaker-photo img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+  }
+
+  .speaker-detail {
+    width: 50%;
+    margin-left: 10px;
+    font-family: lato, Courier, monospace;
+    font-size: 1vh;
+  }
+
+  .speaker-name {
+    font-size: 4vh;
+    font-family: lato, Courier, monospace;
+  }
+
+  .speaker-title {
+    font-size: 2vh;
+    font-family: lato, Courier, monospace;
+  }
+
+  .speaker-bio {
+    margin: 10px 0;
+  }
+
+  .partner {
+    background-color: #272a31;
+    text-align: center;
+    padding-bottom: 10vh;
+  }
+
+  .partner-link {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .partner-title {
+    font-size: 4vh;
+    margin: 5vh 0;
+    color: #d3d3d3;
+    font-family: lato, Courier, monospace;
+  }
+
+  .partner img {
+    width: 20vh;
+    height: 10vh;
+  }
+
+  .footer {
+    display: flex;
+    padding: 4vh 0;
+  }
+
+  .footer-copyright,
+  .footer-logo {
+    font-size: 2vh;
+    width: 50%;
+    font-family: lato, Courier, monospace;
+  }
+
+  .mobile_element {
+    display: none;
   }
 }
