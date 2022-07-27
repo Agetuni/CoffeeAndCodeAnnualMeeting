@@ -34,7 +34,9 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
+## Acknowledgments
 
+-  I have used a UI/UX designe made my [cindy Shin](https://www.behance.net/adagio07)  on [Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) site.
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.

@@ -258,15 +258,22 @@
   }
 
   .past-summit {
-    width: 80%;
-    height: 20vh;
     margin: 20px auto;
     background-color: rgba(255, 0, 0, 0.5);
+  }
+
+  .past-summit img {
+    width: 20vh;
   }
 
   .past-summits-titile {
     color: #272a31;
     font-size: 3vh;
+  }
+
+  .summits {
+    display: flex;
+    justify-content: center;
   }
 
   .partner {
@@ -525,6 +532,10 @@
     font-size: 1.5vh;
   }
 
+  .past-summit img {
+    width: 50vh;
+  }
+
   .summits {
     display: flex;
     justify-content: center;
@@ -533,7 +544,6 @@
   .past-summit {
     width: 100%;
     margin: 1vh;
-    height: 20vh;
     color: #d3d3d3;
     background-color: #ec5242;
   }
