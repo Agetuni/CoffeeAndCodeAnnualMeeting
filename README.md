@@ -1,1 +1,40 @@
-# GlobalSumit
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# Coffee and Code Annual meeting
+
+> Coffee and Code helds annual meeting every year. This website gives detail information on the annual meeting. Users all over the world can see who are the choosen featured speakers and previous events.
+
+
+## Built With
+
+- HTML,CSS
+- Linters
+
+## Live Demo 
+> 
+
+
+## Getting Started
+This is a simple html/css project.
+
+
+## Authors
+
+👤 **Alazar Yilma**
+
+- GitHub: [@Agetuni](https://github.com/Agetuni)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/aleazar-yilma-b614b6174/)
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
