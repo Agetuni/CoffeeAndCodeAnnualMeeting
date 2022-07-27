@@ -2,7 +2,6 @@ const main = document.querySelector('main');
 const openMenuElement = document.querySelector('.mobile-menu');
 const closeMenuElement = document.querySelector('.mobile-close-button');
 const mobileNavigationMenu = document.querySelector('.mobile-naviation');
-
 // functions
 function openMobileMenu() {
   mobileNavigationMenu.classList.remove('hidden');
