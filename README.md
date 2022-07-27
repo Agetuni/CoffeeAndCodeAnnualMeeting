@@ -2,7 +2,7 @@
 
 # Coffee and Code Annual meeting
 
-> Coffee and Code helds annual meeting every year. This website gives detail information on the annual meeting. Users all over the world can see who are the choosen featured speakers and previous events.
+> Coffee and Code helds annual meeting every year. This website gives detail information on the annual meeting. Users all over the world can see who are the choosen featured speakers and detail infromation about previous events.
 
 
 ## Built With
@@ -11,7 +11,7 @@
 - Linters
 
 ## Live Demo 
-> 
+> [Quality Assurance Demo](https://agetuni.github.io/CoffeeAndCodeAnnualMeeting/)
 
 
 ## Getting Started
