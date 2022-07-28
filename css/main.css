@@ -90,6 +90,7 @@
   .mobile-menu {
     font-size: 25px;
     margin: 20px;
+    color: #272a31;
   }
 
   .introduction {
@@ -191,18 +192,20 @@
 
   .program-title p {
     margin: auto;
+    font-size: 2vh;
   }
 
   .program-detail {
     padding: 5px;
     font-family: lato, Courier, monospace;
-    font-size: 2vw;
+    font-size: 2vh;
     font-weight: normal;
   }
 
   .join {
     width: 60%;
-    font-size: 2vw;
+    font-size: 2vh;
+    font-weight: bold;
     padding: 30px 25px;
     margin: 30px auto;
     background-color: #ec5242;
@@ -227,13 +230,19 @@
 
   .speaker-name {
     font-size: 3vh;
+    font-weight: bold;
     font-family: lato, Courier, monospace;
   }
 
   .speaker-title,
   .speaker-detail {
+    padding: 5px;
     font-size: 1.5vh;
     font-family: lato, Courier, monospace;
+  }
+
+  .speaker-title {
+    font-weight: 400;
   }
 
   .featured-speaker header {
@@ -306,6 +315,13 @@
     width: 8vh;
   }
 
+  .footer-index {
+    padding: 10px;
+    background-color: #d3d3d3;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
   .footer {
     padding: 10px;
     background-color: #272a31;
@@ -313,9 +329,10 @@
     grid-template-columns: 50% 50%;
   }
 
-  .footer img {
+  .footer-logo-img {
     float: right;
     margin-right: 2vh;
+    width: 20vh;
   }
 
   .footer-copyright {
@@ -532,6 +549,11 @@
     padding: 4vh 0;
   }
 
+  .footer-index {
+    display: flex;
+    padding: 4vh 0;
+  }
+
   .past-summits-titile {
     margin: 3vh;
     color: #272a31;
@@ -577,7 +599,7 @@
   }
 
   .mobile_element {
-    display: none;
+    display: none !important;
   }
 
   .about-intrduction-detail {
