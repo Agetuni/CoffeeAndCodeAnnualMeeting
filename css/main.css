@@ -37,6 +37,11 @@
   font-weight: 900;
 }
 
+.about-footer {
+  background-color: #272a31;
+  color: #d3d3d3;
+}
+
 @media (max-width: 768px) {
   body {
     color: #ec5242;
@@ -303,7 +308,7 @@
 
   .footer {
     padding: 10px;
-    background-color: white;
+    background-color: #272a31;
     display: grid;
     grid-template-columns: 50% 50%;
   }
@@ -311,7 +316,6 @@
   .footer img {
     float: right;
     margin-right: 2vh;
-    width: 0;
   }
 
   .footer-copyright {
@@ -344,6 +348,7 @@
     font-size: 1.5vh;
     padding: 1vh 2vh;
     border: #ec5242 solid 2px;
+    color: #ec5242;
   }
 
   .introduction {
