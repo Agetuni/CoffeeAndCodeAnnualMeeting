@@ -328,6 +328,10 @@
     font-family: cocogoose, 'Eras Bold ITC', Arial, sans-serif;
   }
 
+  .top-nav-content {
+    padding-right: 20vh;
+  }
+
   .nav-logo {
     width: 25vh;
   }
